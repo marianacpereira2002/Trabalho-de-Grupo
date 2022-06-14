@@ -1,7 +1,7 @@
 # Trabalho de Grupo
 Trabalho final de programação
 
-**Membros do grupo:** Mariana Pereira, Daniela Araújo.
+**Membros do grupo:** Mariana Pereira e Daniela Araújo.
 
 **Contexto**
 
@@ -9,9 +9,21 @@ O nosso trabalho consiste num conjunto de perguntas relativas aos dados das prim
 
 **Bibliografia**
 
+* Fonte de Dados: Dados do Shark Tank para as temporadas 1-10 coletados por Halle Tecco, para consulta em: https://docs.google.com/spreadsheets/u/1/d/1Lr0gi_QJB_JU0lBMjJ7WiBRxA0loml1FlM-KlmKsaEY/htmlview?pli=1# 
+
+* Fonte de Dados do CSV: Dados do Shark Tank para as temporadas 1-6 coletados por Halle Tecco, extraído em: https://gist.github.com/apurvadave/3afe546bc05e4e544b24
+
+
 **Estrutura**
 
-**API’s usados – notas técnicas**
+O repositório está organizado da seguinte forma:
++ `data.csv`: Conjunto de dados relativos às temporadas 1-6 do reality show "Shark Tank", extraído em (https://gist.github.com/apurvadave/3afe546bc05e4e544b24)
++ `vacinas_detalhe.csv`: contém dados detalhados semanais relativos à vacinação, extraídos do [dataset do relatório de vacinação](https://covid19.min-saude.pt/relatorio-de-vacinacao/) da DGS. Nota: até 17-03-2021 incluia apenas população residente no continente, vide nota de `vacinas.csv`. Nota: tal como todos os outros `csv`, a coluna `data` corresponde ao dia seguinte aos dados reportados (7 dias neste caso), enquanto o `Relatório PDF` refere o último dia desses 7 dias, e o `Dataset CSV` refere o primeiro dia desses 7 dias.
++ `data_concelhos.csv`: contém dados acumulados relativos aos confirmados por concelho, extraídos do [dashboard da DGS](https://covid19.min-saude.pt/ponto-de-situacao-atual-em-portugal/) (e por isso sujeito às mesmas limitações relativamente a abrangência e protecção de dados, nomeadamente concelhos com menos de 3 confirmados não são reportados). Esta série de dados tem início a 24-03-2020 e tem cadência diária até 04-07-2020, passando a cadência semanal a 14-07-2020, e terminando a 26-10-2020. Vide os próximos dados para o novo formato.
++ `data_concelhos_14dias.csv` e `data_concelhos_incidencia.csv` contém dados de confirmados do acumulado dos 14 dias anteriores à data do reporte, no primeiro ficheiro, e proporcional a 100k habitantes no segundo ficheiro. Inclui os dados calculados do `data_concelhos.csv` desde que os daddos são semanais, nomeadamente entre 27-07-2020 (correspondendo ao periodo de 13-07-2020 a 26-07-2020) até 26-10-2020, e será actualizado conforme seja disponibilizado pela DGS (semanalmente à segunda-feira).
++ `archive/`: arquivo de todos os relatórios de situação disponibilizados pela DGS, em formato `.pdf`. Os relatórios são disponibilizados diariamente, desde o dia 03-03-2020.
++ `notebooks/`: contém um _notebook_ Python com um exemplo simples de como carregar e visualizar os dados.
++ `extra/`: contém fontes de dados extras que podem ser usadas para complementar as análises dos restantes dados. As descrições dessas fontes de dados encontram-se dentro de um README nessa pasta.
 
 **Dicionário de dados**
 
