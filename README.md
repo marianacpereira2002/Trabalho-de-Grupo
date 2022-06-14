@@ -9,15 +9,14 @@ O nosso trabalho consiste num conjunto de perguntas relativas aos dados das prim
 
 **Bibliografia**
 
-* Fonte de Dados: Dados do Shark Tank para as temporadas 1-10 coletados por Halle Tecco, para consulta em: https://docs.google.com/spreadsheets/u/1/d/1Lr0gi_QJB_JU0lBMjJ7WiBRxA0loml1FlM-KlmKsaEY/htmlview?pli=1# 
+* Fonte de Dados: Dados do Shark Tank para as temporadas 1-10 coletados por Halle Tecco, para consulta em: https://docs.google.com/spreadsheets/u/1/d/1Lr0gi_QJB_JU0lBMjJ7WiBRxA0loml1FlM-KlmKsaEY/htmlview?pli=1#
 
 * Fonte de Dados do CSV: Dados do Shark Tank para as temporadas 1-6 coletados por Halle Tecco, extraído em: https://gist.github.com/apurvadave/3afe546bc05e4e544b24
-
 
 **Estrutura**
 
 O repositório está organizado da seguinte forma:
-+ `data.csv`: Conjunto de dados relativos às temporadas 1-6 do reality show "Shark Tank", extraído em (https://gist.github.com/apurvadave/3afe546bc05e4e544b24)
++ `data.csv`: Conjunto de dados relativos às temporadas 1-6 do reality show "Shark Tank", extraído em https://gist.github.com/apurvadave/3afe546bc05e4e544b24
 
 + `Shark Tank Investment Data (by @halletecco) - Google Drive.html`: contém dados detalhados relativos às temporadas 1-10, coletados por Halle Tecco, para consulta em: https://docs.google.com/spreadsheets/u/1/d/1Lr0gi_QJB_JU0lBMjJ7WiBRxA0loml1FlM-KlmKsaEY/htmlview?pli=1#
 
