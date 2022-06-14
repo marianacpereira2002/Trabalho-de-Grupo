@@ -36,7 +36,7 @@ Uma explicação do conteúdo em `data.csv`.
 | `Industry` | Enquadrar a companhia na indústria a que se destina | Nomes das indústrias, por exemplo de healthcare, business services etc |
 | `Entrepreneur gender` | Referir o género de cada concorrente, ou mais concretamente o sexo feminino ou masculino | Feminino ou masculino (female or male) |
 | `Amount` | Quantia proposta pelos concorrentes na apresentação do seu produto | Valores em doláres, como por exemplo $50,000 |
-| `Equity` | Patrimônio líquido ou capital próprio, representa efetivamente os valores que os sharks têm na empresa no momento de investimento | Percentagem, como por exemplo 55% |
+| `Equity` | Património líquido ou capital próprio, representa efetivamente os valores que os sharks têm na empresa no momento de investimento | Percentagem, como por exemplo 55% |
 | `Valuation` | Avaliação do valor monetário da empresa, que consiste num cálculo, em que se multiplica o preço das ações da empresa pelo número total de ações em circulação |  Valores em doláres, como por exemplo $90,909 |
 | `Corcoran` | Shark Barbara Corcoran | 1 que simboliza que investiu na empresa ou vazio significa que não investiu |
 | `Cuban` | Shark Mark Cuban | 1 que simboliza que investiu na empresa ou vazio significa que não investiu |
